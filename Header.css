@@ -1,0 +1,47 @@
+/* Estilo para o cabeçalho */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+  }
+  
+  /* Estilo para o logo */
+  .logo img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: auto;
+  }
+  
+  /* Estilo para a navegação */
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin-right: 20px; /* Espaçamento entre os itens de navegação */
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Estilo para o botão de login */
+  .login-button {
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto no botão */
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
